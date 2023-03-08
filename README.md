@@ -1,13 +1,22 @@
-# chatgpt-api-whisper-api-voice-assistant
-chatgpt api and whisper api tutorial - voice conversation with therapist
-
-Video Demo / Tutorial:
-
-https://www.youtube.com/watch?v=Si0vFx_dJ5Y
-
+# Javis
 ## Setup
 
 Install `ffmpeg` with:
 ```
 brew install ffmpeg
 ```
+
+Create a virtual environment and install the requirements:
+```
+python3 -m venv jarvis
+source jarvis/bin/activate
+pip install -r ./src/requirements.txt
+```
+
+## Run
+
+Run the app:
+```
+python ./src/app.py
+```
+
